@@ -2,17 +2,15 @@ function fn() {
   var env = karate.env; // get system property 'karate.env'
   karate.log('karate.env system property was:', env);
   if (!env) {
-    env = 'dev';
+    env = 'qa';
   }
   var config = {
-    env: env,
-    myVarName: 'someValue'
+
+    path_pet: '/pet/'
+    
   }
-  if (env == 'dev') {
-    // customize
-    // e.g. config.foo = 'bar';
-  } else if (env == 'e2e') {
-    // customize
-  }
+
+  config.ambiente = karate.call('classpath:core/environment/config-' + env + '.js');
+
   return config;
 }
