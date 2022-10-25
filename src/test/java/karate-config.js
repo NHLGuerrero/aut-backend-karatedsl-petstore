@@ -6,7 +6,8 @@ function fn() {
   }
   var config = {
 
-    path_pet: '/pet/'
+    path_pet: '/pet/',
+    path_user: '/user/'
     
   }
 
