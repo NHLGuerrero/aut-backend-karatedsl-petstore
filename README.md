@@ -1,4 +1,4 @@
-# API Test Automation Backend - Karate DSL - EN PROCESO
+# API Test Automation Backend - Karate DSL
 
 Proyecto de automatización de pruebas API basado en Karate DSL.
 
