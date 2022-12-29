@@ -1,3 +1,4 @@
+@ignore
 Feature: Reutilizable crear usuario random
   
   Background:

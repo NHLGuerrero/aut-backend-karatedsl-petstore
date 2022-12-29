@@ -12,10 +12,10 @@ Feature: Users
   @nuevo_usuario
   Scenario: Crear nuevo usuario
     * set req_crear_usuario.id = 1231233
-    * set req_crear_usuario.username = 'UsuarioDePrueba'
+    * set req_crear_usuario.username = 'UsuarioTesting'
     * set req_crear_usuario.firstName = 'Usuario'
-    * set req_crear_usuario.lastName = 'Prueba'
-    * set req_crear_usuario.email = 'usuariodeprueba@gmail.com'
+    * set req_crear_usuario.lastName = 'Testing'
+    * set req_crear_usuario.email = 'usuariotesting@gmail.com'
     * set req_crear_usuario.password = 'probando123'
     * set req_crear_usuario.phone = '12312313'
     * set req_crear_usuario.userStatus = 1

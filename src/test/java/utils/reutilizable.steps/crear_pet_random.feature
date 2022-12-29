@@ -1,6 +1,7 @@
-  Feature: Reutilizable crear pet
-  
-  Background:
+@ignore
+Feature: Reutilizable crear pet
+
+  Background: 
     * url ambiente.url
     * def req_crear_pet = read('../../petstore/request/crear_pet.json')
     * def res_crear_pet = read('../../petstore/response/crear_pet.json')
