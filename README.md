@@ -4,13 +4,7 @@ Proyecto de automatización de pruebas API basado en Karate DSL.
 
 ## Estructura del proyecto
 
-- java/petstore/features: Contiene lista de archivos features en lenguaje Gherkin con escenarios de prueba.
-- java/petstore/request: Contiene estructuras de json de requests.
-- java/petstore/responde: Continene estructura json de responses.
-- java/core/environment: Contiene set de datos por ambiente (config-qa.js).
-- java/utils/reutilizables.steps: Contiene features que seran utilizados en diferentes flujos.
-- java/utils/util.java: Clase que contiene métodos java que serán llamados desde los features.
-- java/karate-config.js: Configuraciónes.
+[![estructura-karate-petstore.png](https://i.postimg.cc/NjcSSdvj/estructura-karate-petstore.png)](https://postimg.cc/crFF8MJp)
 
 ## Requerimientos generales
 
