@@ -31,6 +31,10 @@ Clonar el repositorio:
 
     git clone git@github.com:NHLGuerrero/aut-backend-karatedsl-petstore.git
 
+Ejecución de tests
+
+    mvn clean verify -D karate.env=qa -D test=PetstoreRunner
+
 Ejecución por tag (Agregar el tag @run a el/los casos de prueba a ejecutar).
 
     mvn clean verify -D karate.env=qa -D karate.options="--tags @run" -D test=PetstoreRunner
